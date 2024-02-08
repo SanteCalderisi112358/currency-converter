@@ -1,0 +1,45 @@
+body{
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color:aliceblue
+}
+.container{
+    background-color: darkcyan;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0, .3);
+}
+.currency-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.currency-container select{
+    padding: 10px;
+}
+
+.currency-container input{
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    text-align: right;
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+select:focus, input:focus{
+    outline: 0;
+}
